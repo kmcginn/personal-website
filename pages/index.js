@@ -23,13 +23,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href="https://github.com/kmcginn" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'github-square']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="GitHub" icon={['fab', 'github-square']} size="3x" className={styles.socialIcon}/>
         </a>
         <a href="https://dev.to/kmcginn" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'dev']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="Dev Community" icon={['fab', 'dev']} size="3x" className={styles.socialIcon}/>
         </a>
         <a href="https://twitter.com/kmcginn14" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'twitter-square']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="Twitter" icon={['fab', 'twitter-square']} size="3x" className={styles.socialIcon}/>
         </a>
       </footer>
     </div>
