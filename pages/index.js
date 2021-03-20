@@ -7,7 +7,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Hello!</title>
-        { /*<link rel="icon" href="/favicon.ico" /> */ }
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="manifest" href="/site.webmanifest"/>
       </Head>
 
       <main className={styles.main}>
@@ -20,13 +23,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href="https://github.com/kmcginn" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'github-square']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="GitHub" icon={['fab', 'github-square']} size="3x" className={styles.socialIcon}/>
         </a>
         <a href="https://dev.to/kmcginn" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'dev']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="Dev Community" icon={['fab', 'dev']} size="3x" className={styles.socialIcon}/>
         </a>
         <a href="https://twitter.com/kmcginn14" target="_blank">
-          <FontAwesomeIcon icon={['fab', 'twitter-square']} size="3x" className={styles.socialIcon}/>
+          <FontAwesomeIcon title="Twitter" icon={['fab', 'twitter-square']} size="3x" className={styles.socialIcon}/>
         </a>
       </footer>
     </div>
