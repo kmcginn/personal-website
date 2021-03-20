@@ -14,6 +14,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Hello, World!
         </h1>
+        <p>I'm Kevin McGinn, a software developer in Portland, Oregon</p>
+        <p>This website is brand new, and still under construction 🚧👷🏻‍♂️🚧</p>
       </main>
 
       <footer className={styles.footer}>
