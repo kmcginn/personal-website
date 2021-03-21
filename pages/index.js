@@ -13,12 +13,12 @@ export default function Home() {
       </Head>
 
       <main className="px-20 flex-1 flex flex-col justify-center items-center">
-        <h1 className="text-3xl">
+        <h1 className="text-7xl font-bold leading-relaxed text-center">
           Hello, World!
         </h1>
-        <p>I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
-        <p>This website is brand new and still under construction.</p>
-        <p> 🚧👷🏻‍♂️🚧</p>
+        <p className="text-center">I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
+        <p className="text-center">This website is brand new and still under construction.</p>
+        <p className="text-center"> 🚧👷🏻‍♂️🚧</p>
       </main>
 
       <footer className="w-full h-28 border-t-2 border-solid border-blue-100 flex justify-center items-center">
