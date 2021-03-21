@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className="px-20 flex-1 flex flex-col justify-center items-center text-center">
-        <h1 className="text-7xl font-bold leading-relaxed">
+        <h1 className="text-3xl sm:text-5xl md:text-7xl leading-relaxed sm:leading-relaxed md:leading-relaxed font-bold">
           Hello, World!
         </h1>
         <p>I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
