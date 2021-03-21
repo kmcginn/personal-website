@@ -12,13 +12,13 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"/>
       </Head>
 
-      <main className="px-20 flex-1 flex flex-col justify-center items-center">
-        <h1 className="text-7xl font-bold leading-relaxed text-center">
+      <main className="px-20 flex-1 flex flex-col justify-center items-center text-center">
+        <h1 className="text-7xl font-bold leading-relaxed">
           Hello, World!
         </h1>
-        <p className="text-center">I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
-        <p className="text-center">This website is brand new and still under construction.</p>
-        <p className="text-center"> 🚧👷🏻‍♂️🚧</p>
+        <p>I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
+        <p>This website is brand new and still under construction.</p>
+        <p> 🚧👷🏻‍♂️🚧</p>
       </main>
 
       <footer className="w-full h-28 border-t-2 border-solid border-blue-100 flex justify-center items-center">
