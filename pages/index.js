@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import SocialIcon from '../components/socialicon'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="min-h-screen py-2 flex flex-col justify-center items-center">
       <Head>
         <title>Hello!</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -13,12 +12,13 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"/>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main className="px-20 flex-1 flex flex-col justify-center items-center">
+        <h1 className="text-3xl">
           Hello, World!
         </h1>
         <p>I'm Kevin McGinn, a software developer in Portland, Oregon</p>
-        <p>This website is brand new, and still under construction 🚧👷🏻‍♂️🚧</p>
+        <p>This website is brand new, and still under construction</p>
+        <p> 🚧👷🏻‍♂️🚧</p>
       </main>
 
       <footer className={styles.footer}>
