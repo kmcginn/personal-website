@@ -5,6 +5,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 // fix for FontAwesomeIcons disappearing when favicon is set
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
+// eslint-disable-next-line react/prop-types
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }

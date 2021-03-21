@@ -30,7 +30,7 @@ export default function Home() {
         <h1 className="text-3xl sm:text-5xl md:text-7xl leading-relaxed sm:leading-relaxed md:leading-relaxed font-bold">
           Hello, World!
         </h1>
-        <p>I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
+        <p>I&apos;m Kevin McGinn, a software developer in Portland, Oregon.</p>
         <p>This website is brand new and still under construction.</p>
         <p> 🚧👷🏻‍♂️🚧</p>
       </main>
