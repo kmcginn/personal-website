@@ -23,6 +23,7 @@ export default function Home() {
 
       <footer className="w-full h-28 border-t-2 border-solid border-blue-100 flex justify-center items-center">
         <div className="grid grid-rows-1 grid-cols-3 gap-x-3">
+          <span className="sr-only">Social media links</span>
           <SocialIcon iconId="github-square" iconName="GitHub" link="https://github.com/kmcginn"/>
           <SocialIcon iconId="dev" iconName="Dev Community" link="https://dev.to/kmcginn"/>
           <SocialIcon iconId="twitter-square" iconName="Twitter" link="https://twitter.com/kmcginn14"/>
