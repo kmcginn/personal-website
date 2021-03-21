@@ -21,16 +21,10 @@ export default function Home() {
         <p> 🚧👷🏻‍♂️🚧</p>
       </main>
 
-      <footer className={styles.footer}>
-        <a href="https://github.com/kmcginn" target="_blank">
-          <FontAwesomeIcon title="GitHub" icon={['fab', 'github-square']} size="3x" className={styles.socialIcon}/>
-        </a>
-        <a href="https://dev.to/kmcginn" target="_blank">
-          <FontAwesomeIcon title="Dev Community" icon={['fab', 'dev']} size="3x" className={styles.socialIcon}/>
-        </a>
-        <a href="https://twitter.com/kmcginn14" target="_blank">
-          <FontAwesomeIcon title="Twitter" icon={['fab', 'twitter-square']} size="3x" className={styles.socialIcon}/>
-        </a>
+      <footer className="w-full h-28 border-t-2 border-solid border-blue-100 flex justify-center items-center">
+        <SocialIcon iconId="github-square" iconName="GitHub" link="https://github.com/kmcginn"/>
+        <SocialIcon iconId="dev" iconName="Dev Community" link="https://dev.to/kmcginn"/>
+        <SocialIcon iconId="twitter-square" iconName="Twitter" link="https://twitter.com/kmcginn14"/>
       </footer>
     </div>
   )
