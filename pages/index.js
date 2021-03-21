@@ -16,8 +16,8 @@ export default function Home() {
         <h1 className="text-3xl">
           Hello, World!
         </h1>
-        <p>I'm Kevin McGinn, a software developer in Portland, Oregon</p>
-        <p>This website is brand new, and still under construction</p>
+        <p>I'm Kevin McGinn, a software developer in Portland, Oregon.</p>
+        <p>This website is brand new and still under construction.</p>
         <p> 🚧👷🏻‍♂️🚧</p>
       </main>
 
