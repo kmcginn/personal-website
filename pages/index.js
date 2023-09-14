@@ -53,11 +53,6 @@ export default function Home() {
             iconName="Dev Community"
             link="https://dev.to/kmcginn"
           />
-          <SocialIcon
-            iconId="twitter-square"
-            iconName="Twitter"
-            link="https://twitter.com/kmcginn14"
-          />
         </div>
       </footer>
     </div>
