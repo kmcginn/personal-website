@@ -5,10 +5,20 @@ export const metadata: Metadata = {
   title: "Hello!",
   icons: [
     { rel: "apple-touch-icon", url: "/apple-touch-icon.png", sizes: "180x180" },
-    { rel: "icon", type: "image/png", url: "/favicon-32x32.png", sizes: "32x32"},
-    { rel: "icon", type: "image/png", url: "/favicon-16x16.png", sizes: "16x16"}
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/favicon-32x32.png",
+      sizes: "32x32",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/favicon-16x16.png",
+      sizes: "16x16",
+    },
   ],
-  manifest: "/site.webmanifest"
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
