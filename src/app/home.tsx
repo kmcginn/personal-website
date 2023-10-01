@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import SocialIcon from "../components/socialicon";
+import {faLinkedin, faGithubSquare, faDev} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -41,18 +42,18 @@ export default function Home() {
         <div className="grid grid-rows-1 grid-cols-3 gap-x-3">
           <span className="sr-only">Social media links</span>
           <SocialIcon
-            iconId="linkedin"
-            iconName="LinkedIn"
+            icon={faLinkedin}
+            iconDisplayName="LinkedIn"
             link="https://www.linkedin.com/in/kevin-mcginn-5852a074/"
           />
           <SocialIcon
-            iconId="github-square"
-            iconName="GitHub"
+            icon={faGithubSquare}
+            iconDisplayName="GitHub"
             link="https://github.com/kmcginn"
           />
           <SocialIcon
-            iconId="dev"
-            iconName="Dev Community"
+            icon={faDev}
+            iconDisplayName="Dev Community"
             link="https://dev.to/kmcginn"
           />
         </div>
