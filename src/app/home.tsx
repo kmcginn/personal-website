@@ -2,6 +2,7 @@
 
 import SocialIcon from "../components/socialicon";
 import {faLinkedin, faGithubSquare, faDev} from "@fortawesome/free-brands-svg-icons";
+import {faCloud} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       </main>
 
       <footer className="w-full h-28 border-t-2 border-solid border-blue-100 flex justify-center items-center">
-        <div className="grid grid-rows-1 grid-cols-3 gap-x-3">
+        <div className="grid grid-rows-1 grid-cols-4 gap-x-1">
           <span className="sr-only">Social media links</span>
           <SocialIcon
             icon={faLinkedin}
@@ -33,6 +34,11 @@ export default function Home() {
             icon={faDev}
             iconDisplayName="Dev Community"
             link="https://dev.to/kmcginn"
+          />
+          <SocialIcon
+            icon={faCloud}
+            iconDisplayName="Bluesky"
+            link="https://bsky.app/profile/kmcginn.dev"
           />
         </div>
       </footer>
