@@ -5,8 +5,8 @@ import {
   faLinkedin,
   faGithubSquare,
   faDev,
+  faBluesky,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCloud } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -61,7 +61,7 @@ export default function Home() {
             link="https://dev.to/kmcginn"
           />
           <SocialIcon
-            icon={faCloud}
+            icon={faBluesky}
             iconDisplayName="Bluesky"
             link="https://bsky.app/profile/kmcginn.dev"
           />
